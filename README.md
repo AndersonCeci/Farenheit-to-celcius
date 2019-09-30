@@ -11,13 +11,13 @@ int main()
 	int fahrenheit;
 	
 	
-	cout << "Fut temperaturen farenhite : ";
+	cout << "Place temperature on farenhite : ";
 	cin >> fahrenheit;
 	
 	celcius = (fahrenheit - 32) * 5 / 9;
 	
 	
-	cout << "Temperature nga farenhit ne celcius eshte " << celcius;
+	cout << "Temperature from farenheit to celcius is " << celcius;
 	
 	
 		
