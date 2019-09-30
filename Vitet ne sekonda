@@ -7,48 +7,48 @@ int main ()
 {
 
 
-	int viti;                          
-	int muaji;
-	int javet;
-	int ditet;
-	int oret;
-	int minutat;
-	int sekondat;
-	int data;
+	int year;                          
+	int month;
+	int week;
+	int days;
+	int hours;
+	int minutes;
+	int seconds;
+	int dates;
 	
-	 cout << "Fut vitin e lindjes,muajin, diten dhe oren :  \n";
+	 cout << "Put your date of birth year,month,day,hour:  \n";
  
 
 
 
- cout << "Vendos vitin e lindjes : ";
- cin >> data;
+ cout << "What year were you born : ";
+ cin >> dates;
 
 
  
  
  
  
- data = data - 2018;
+ dates = dates - 2018;
  
  
- data = data * (-1);
+ dates = dates * (-1);
  
- viti = data;
+ year = dates;
  
- muaji = viti * 12;
+ month = year * 12;
  
- javet = muaji * 4;
+ week = month * 4;
  
- ditet = javet * 24;
+ days = weeks * 24;
  
- oret = ditet * 60;
+ hours = dates * 60;
  
- minutat = oret * 60;
+ minutes = hours * 60;
  
- sekondat = minutat * 60;
+ seconds = minutes * 60;
  
- cout << "Ju jeni :" << viti << " vjec \n" << muaji << " muaj \n" << javet << " jave \n" << ditet << " dite \n" << oret << " ore \n" << minutat << " minuta \n" << sekondat << " sekonda";
+ cout << "You are :" << year << " old \n" << muaji << " months \n" << javet << " week \n" << ditet << " days\n" << oret << " hours \n" << minutat << " minutes \n" << sekondat << " seconds old";
 	
 	
 	
